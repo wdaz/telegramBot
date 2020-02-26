@@ -1,0 +1,6 @@
+{
+"greeting": "Hello ${(username)}!",
+"question1":"Thank you I'm fine, you?"
+} 
+    
+
