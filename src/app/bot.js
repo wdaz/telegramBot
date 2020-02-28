@@ -59,8 +59,8 @@ bot.command('special', (ctx) => {
     }))
 
 })
-bot.on('contact', (ctx) => console.log(ctx.message.contact))
-bot.on('location', (ctx) => console.log(ctx.message.location, ctx.from))
+bot.on('contact', (ctx) => ctx.reply('Thank you with phone'))
+bot.on('location', (ctx) => console.log('Thank you with location'))
 
 
 bot.on('text', (ctx) => unKnownCommand(ctx))
