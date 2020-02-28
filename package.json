@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon node bot.js",
-    "start": "node bot.js"
+    "start:dev": "nodemon node src/app/bot.js",
+    "start": "node src/app/bot.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ruslan H-di",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "path": "^0.12.7",
     "telegraf": "^3.36.0",
-    "telegraf-i18n": "^6.6.0"
+    "telegraf-i18n": "^6.6.0",
+    "telegraf-inline-menu": "^4.0.0"
   }
 }
