@@ -23,7 +23,7 @@
 // echoScene.on('text', (ctx) => ctx.reply(ctx.message.text))
 // echoScene.on('message', (ctx) => ctx.reply('Only text messages please'))
 
-// const bot = new Telegraf('1069607930:AAFj2ha3ND8b83wm0jTTeTLNholUHGycCLw')
+// const bot = new Telegraf(token)
 // const stage = new Stage([greeterScene, echoScene], { ttl: 10 })
 // bot.use(session())
 // bot.use(stage.middleware())
