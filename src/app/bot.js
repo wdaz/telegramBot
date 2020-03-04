@@ -12,7 +12,7 @@ const i18n = require('../modules/locale/locale.module')
 
 
 // Bot token
-const bot = new Telegraf('1069607930:AAFj2ha3ND8b83wm0jTTeTLNholUHGycCLw')
+const bot = new Telegraf('token')
 
 
 bot.use(Telegraf.session())
